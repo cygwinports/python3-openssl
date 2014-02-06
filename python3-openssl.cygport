@@ -1,0 +1,11 @@
+ORIG_PN="pyOpenSSL"
+inherit python3-distutils
+
+NAME="python3-openssl"
+VERSION=0.13.1
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="Py3K OpenSSL bindings"
+DESCRIPTION="Python wrapper module around the OpenSSL library"
+
+PATCH_URI="0.13.1-py3-cygwin.patch"
